@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 20px;
+}
+.colorBox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.colorBox > div {
+  margin-right: 10px;
+}
